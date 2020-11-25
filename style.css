@@ -7,7 +7,7 @@ body {
     margin-right: auto;
     margin-top: 0;
     padding: 0;
-    width: 900px;
+    max-width: 900px;
     background-color: orange;
 }
 
@@ -15,9 +15,8 @@ h1 {
     font-family: 'Anton', sans-serif;
 }
 
-p, ol{
+p, ol {
     font-family: 'Noto Sans JP', sans-serif;
-    width: 500px;
 }
 
 .info-about-me {
@@ -27,11 +26,12 @@ p, ol{
 }
 
 .info-about_text {
-    width: 500px;
+
     height: 300px;
 }
 
 .my-photo {
+    width: 300px;
     padding: 40px;
     border-radius: 50%;
     object-fit: cover;
